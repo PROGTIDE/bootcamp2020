@@ -30,4 +30,4 @@ jobs:
       -name: Install Surge
        run: nmp install -g surge
      -name: Run Surge
-       run: surge ./ bootcampnewapp.surge.sh --token ${{secret.abc}}
+       run: surge ./ bootcampnewapp.surge.sh --token ${{secrets.abc}}
